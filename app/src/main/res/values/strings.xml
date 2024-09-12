@@ -1,3 +1,11 @@
 <resources>
     <string name="app_name">CurrencyConverter</string>
+    <string name="toshare">Share</string>
+    <string name="program_about">About</string>
+    <string name="currency_rate">CurrencyRate</string>
+    <string name="tab_home_description">Home Tab</string>
+    <string name="tab_currency_description">Currency Tab</string>
+    <string name="tab_calculator_description">Calculator Tab</string>
+
+
 </resources>
