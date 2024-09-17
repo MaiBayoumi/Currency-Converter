@@ -1,4 +1,3 @@
-import org.jetbrains.kotlin.storage.CacheResetOnProcessCanceled.enabled
 
 plugins {
     alias(libs.plugins.android.application)
@@ -39,10 +38,10 @@ android {
     kotlinOptions {
         jvmTarget = "1.8"
     }
-
-    viewBinding{
-        enable=true
-    }
+buildFeatures{
+    viewBinding= true
+    dataBinding = true
+}
 
 }
 
@@ -79,5 +78,9 @@ dependencies {
 
     // Picasso for image loading
     implementation("com.squareup.picasso:picasso:2.71828")
+
+        implementation ("com.google.android.material:material:1.9.0")  // Check for the latest version
+
+
 }
 

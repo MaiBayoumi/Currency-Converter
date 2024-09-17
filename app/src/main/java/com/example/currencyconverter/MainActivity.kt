@@ -12,8 +12,8 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProvider
 import com.google.android.material.tabs.TabLayout
-//import com.google.android.main.app_bar_main.*
-//import kotlinx.android.synthetic.main.tab_layout_main.view.*
+import com.google.android.main.app_bar_main.*
+import kotlinx.android.synthetic.main.tab_layout_main.view.*
 import com.example.currencyconverter.adapter.ViewPagerAdapter
 import com.example.currencyconverter.database.AppDatabase
 import com.example.currencyconverter.databinding.ActivityMainBinding
